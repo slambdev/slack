@@ -108,6 +108,11 @@
     "channel",
     "ts"
   ],
+  "chat.deleteScheduledMessage": [
+    "token",
+    "channel",
+    "scheduled_message_id"
+  ],
   "chat.getPermalink": [
     "token",
     "channel",
@@ -128,6 +133,12 @@
     "token",
     "channel",
     "text"
+  ],
+  "chat.scheduleMessage": [
+    "token",
+    "channel",
+    "text",
+    "post_at"
   ],
   "chat.unfurl": [
     "token",
